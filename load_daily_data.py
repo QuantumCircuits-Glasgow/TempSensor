@@ -4,11 +4,7 @@ import numpy as np
 import csv
 import shutil
 
-
-
-
 def main():
-    
     path = os.path.join(os.getcwd(), "DATA")
     maindata = open(os.path.join(path, "MainData.csv"), "a")
     writer = csv.writer(maindata)
